@@ -1,0 +1,15 @@
+{
+  "id": "pin-03",
+  "title": "아침 안개가 걷히는 언덕",
+  "description": "아침 안개가 걷히는 언덕. Daniel Genser의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["숲", "풍경", "차분한"],
+  "category": "자연",
+  "image": "/images/03.jpg",
+  "width": 640,
+  "height": 720,
+  "author": "Daniel Genser",
+  "source": "https://unsplash.com/photos/PzPbh-faPgU",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-09T00:00:00.000Z",
+  "owned": false
+}
