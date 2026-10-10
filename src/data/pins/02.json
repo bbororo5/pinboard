@@ -1,0 +1,15 @@
+{
+  "id": "pin-02",
+  "title": "도시의 지붕 위를 걷는 시선",
+  "description": "도시의 지붕 위를 걷는 시선. Alex의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["도시", "건축", "유럽"],
+  "category": "여행",
+  "image": "/images/02.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Alex",
+  "source": "https://unsplash.com/photos/zMz14hsbpuU",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-08T00:00:00.000Z",
+  "owned": false
+}
