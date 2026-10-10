@@ -1,0 +1,15 @@
+{
+  "id": "pin-04",
+  "title": "빨간 오후의 커피 한 잔",
+  "description": "빨간 오후의 커피 한 잔. Justin Leibow의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["커피", "빨강", "휴식"],
+  "category": "일상",
+  "image": "/images/04.jpg",
+  "width": 640,
+  "height": 880,
+  "author": "Justin Leibow",
+  "source": "https://unsplash.com/photos/ZJsseAxEcqM",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-10T00:00:00.000Z",
+  "owned": false
+}
