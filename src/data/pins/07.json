@@ -1,0 +1,15 @@
+{
+  "id": "pin-07",
+  "title": "구름이 내려앉은 초원",
+  "description": "구름이 내려앉은 초원. Nicholas Swanson의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["초원", "안개", "풍경"],
+  "category": "자연",
+  "image": "/images/07.jpg",
+  "width": 640,
+  "height": 800,
+  "author": "Nicholas Swanson",
+  "source": "https://unsplash.com/photos/agnhLQWqr1Q",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-13T00:00:00.000Z",
+  "owned": false
+}
