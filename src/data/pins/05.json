@@ -1,0 +1,15 @@
+{
+  "id": "pin-05",
+  "title": "햇살 아래 잠깐의 쉼",
+  "description": "햇살 아래 잠깐의 쉼. Alexander Shustov의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["햇살", "인물", "휴식"],
+  "category": "일상",
+  "image": "/images/05.jpg",
+  "width": 640,
+  "height": 640,
+  "author": "Alexander Shustov",
+  "source": "https://unsplash.com/photos/AHBiSKaENwc",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-11T00:00:00.000Z",
+  "owned": false
+}
