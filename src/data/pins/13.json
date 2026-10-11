@@ -1,0 +1,15 @@
+{
+  "id": "pin-13",
+  "title": "풀잎 사이 작은 이야기",
+  "description": "풀잎 사이 작은 이야기. Tyler Finck의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["풀잎", "흑백", "질감"],
+  "category": "자연",
+  "image": "/images/13.jpg",
+  "width": 640,
+  "height": 800,
+  "author": "Tyler Finck",
+  "source": "https://unsplash.com/photos/Cs4QZdHrHt4",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "owned": false
+}
