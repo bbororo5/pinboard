@@ -1,0 +1,15 @@
+{
+  "id": "pin-12",
+  "title": "바닷가에 남겨진 의자",
+  "description": "바닷가에 남겨진 의자. Jon Eckert의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["해변", "의자", "여유"],
+  "category": "여행",
+  "image": "/images/12.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Jon Eckert",
+  "source": "https://unsplash.com/photos/IoIbdFdGCnQ",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-18T00:00:00.000Z",
+  "owned": false
+}
