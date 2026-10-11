@@ -1,0 +1,15 @@
+{
+  "id": "pin-08",
+  "title": "흑백으로 남긴 산의 결",
+  "description": "흑백으로 남긴 산의 결. Rula Sibai의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["흑백", "산", "숲"],
+  "category": "사진",
+  "image": "/images/08.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Rula Sibai",
+  "source": "https://unsplash.com/photos/QbkGwv3xtmQ",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-14T00:00:00.000Z",
+  "owned": false
+}
