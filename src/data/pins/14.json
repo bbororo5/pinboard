@@ -1,0 +1,15 @@
+{
+  "id": "pin-14",
+  "title": "손끝에 머무는 선율",
+  "description": "손끝에 머무는 선율. Jon Eckert의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["음악", "기타", "손"],
+  "category": "일상",
+  "image": "/images/14.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Jon Eckert",
+  "source": "https://unsplash.com/photos/umLpP7uCZs0",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-20T00:00:00.000Z",
+  "owned": false
+}
