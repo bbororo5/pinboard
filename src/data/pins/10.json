@@ -1,0 +1,15 @@
+{
+  "id": "pin-10",
+  "title": "기찻길 끝에서 만난 초록",
+  "description": "기찻길 끝에서 만난 초록. Alexander Shustov의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["기찻길", "초록", "여행"],
+  "category": "여행",
+  "image": "/images/10.jpg",
+  "width": 640,
+  "height": 880,
+  "author": "Alexander Shustov",
+  "source": "https://unsplash.com/photos/SITaCHf7jjg",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-16T00:00:00.000Z",
+  "owned": false
+}
