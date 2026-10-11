@@ -1,0 +1,15 @@
+{
+  "id": "pin-06",
+  "title": "황금빛으로 물드는 시간",
+  "description": "황금빛으로 물드는 시간. Alexander Shustov의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["노을", "빛", "인물"],
+  "category": "사진",
+  "image": "/images/06.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Alexander Shustov",
+  "source": "https://unsplash.com/photos/2FrX56QL7P8",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-12T00:00:00.000Z",
+  "owned": false
+}
