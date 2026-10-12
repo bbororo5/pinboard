@@ -1,0 +1,15 @@
+{
+  "id": "pin-28",
+  "title": "도시를 가로지르는 리듬",
+  "description": "도시를 가로지르는 리듬. Barcelona의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["거리", "자동차", "흑백"],
+  "category": "사진",
+  "image": "/images/28.jpg",
+  "width": 640,
+  "height": 880,
+  "author": "Barcelona",
+  "source": "https://unsplash.com/photos/muC_6gTMLR4",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-18T00:00:00.000Z",
+  "owned": false
+}
