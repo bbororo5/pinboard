@@ -1,0 +1,15 @@
+{
+  "id": "pin-22",
+  "title": "초록 터널로 들어가는 길",
+  "description": "초록 터널로 들어가는 길. Sander Weeteling의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["숲", "길", "초록"],
+  "category": "자연",
+  "image": "/images/22.jpg",
+  "width": 640,
+  "height": 880,
+  "author": "Sander Weeteling",
+  "source": "https://unsplash.com/photos/rlxZqmc6D_I",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-12T00:00:00.000Z",
+  "owned": false
+}
