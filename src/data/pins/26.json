@@ -1,0 +1,15 @@
+{
+  "id": "pin-26",
+  "title": "넓은 들판 위의 작은 바퀴",
+  "description": "넓은 들판 위의 작은 바퀴. Gozha Net의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["들판", "하늘", "농장"],
+  "category": "자연",
+  "image": "/images/26.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Gozha Net",
+  "source": "https://unsplash.com/photos/xDrxJCdedcI",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-16T00:00:00.000Z",
+  "owned": false
+}
