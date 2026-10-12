@@ -1,0 +1,15 @@
+{
+  "id": "pin-20",
+  "title": "산등성이를 따라가는 길",
+  "description": "산등성이를 따라가는 길. Dorothy Lin의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["산", "흑백", "길"],
+  "category": "자연",
+  "image": "/images/20.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Dorothy Lin",
+  "source": "https://unsplash.com/photos/TIr6EwYMRUM",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-10T00:00:00.000Z",
+  "owned": false
+}
