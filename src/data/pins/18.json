@@ -1,0 +1,15 @@
+{
+  "id": "pin-18",
+  "title": "고요한 물 위의 작은 정자",
+  "description": "고요한 물 위의 작은 정자. May Pamintuan의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["호수", "다리", "고요"],
+  "category": "여행",
+  "image": "/images/18.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "May Pamintuan",
+  "source": "https://unsplash.com/photos/j9nfqTi5T5o",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-08T00:00:00.000Z",
+  "owned": false
+}
