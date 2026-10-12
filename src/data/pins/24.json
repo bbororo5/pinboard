@@ -1,0 +1,15 @@
+{
+  "id": "pin-24",
+  "title": "숲 너머 번지는 저녁빛",
+  "description": "숲 너머 번지는 저녁빛. Julie Geiger의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["숲", "노을", "빛"],
+  "category": "자연",
+  "image": "/images/24.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Julie Geiger",
+  "source": "https://unsplash.com/photos/dYshDcTI1Js",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-14T00:00:00.000Z",
+  "owned": false
+}
