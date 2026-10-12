@@ -1,0 +1,15 @@
+{
+  "id": "pin-15",
+  "title": "파란 바다 너머의 도시",
+  "description": "파란 바다 너머의 도시. Isaak Dury의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["바다", "파랑", "도시"],
+  "category": "여행",
+  "image": "/images/15.jpg",
+  "width": 640,
+  "height": 720,
+  "author": "Isaak Dury",
+  "source": "https://unsplash.com/photos/YhZbnxqtooM",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-21T00:00:00.000Z",
+  "owned": false
+}
