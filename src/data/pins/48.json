@@ -1,0 +1,15 @@
+{
+  "id": "pin-48",
+  "title": "하루의 끝을 물들이는 노을",
+  "description": "하루의 끝을 물들이는 노을. Kenneth Thewissen의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["노을", "들판", "풍경"],
+  "category": "자연",
+  "image": "/images/48.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Kenneth Thewissen",
+  "source": "https://unsplash.com/photos/D76DklsG-5U",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-22T00:00:00.000Z",
+  "owned": false
+}
