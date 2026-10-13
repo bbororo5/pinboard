@@ -1,0 +1,15 @@
+{
+  "id": "pin-36",
+  "title": "게임이 시작되기 전",
+  "description": "게임이 시작되기 전. Pawel Kadysz의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["게임", "취미", "휴식"],
+  "category": "일상",
+  "image": "/images/36.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Pawel Kadysz",
+  "source": "https://unsplash.com/photos/CuFYW1c97w8",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-10T00:00:00.000Z",
+  "owned": false
+}
