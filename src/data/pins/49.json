@@ -1,0 +1,15 @@
+{
+  "id": "pin-49",
+  "title": "오래된 자동차의 멋",
+  "description": "오래된 자동차의 멋. Gabe Rodriguez의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["자동차", "빈티지", "도시"],
+  "category": "사진",
+  "image": "/images/49.jpg",
+  "width": 640,
+  "height": 800,
+  "author": "Gabe Rodriguez",
+  "source": "https://unsplash.com/photos/eLUegVAjN7s",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-07T00:00:00.000Z",
+  "owned": false
+}
