@@ -1,0 +1,15 @@
+{
+  "id": "pin-39",
+  "title": "흐릿한 해변의 기억",
+  "description": "흐릿한 해변의 기억. Tina Rataj의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["해변", "바다", "안개"],
+  "category": "여행",
+  "image": "/images/39.jpg",
+  "width": 640,
+  "height": 720,
+  "author": "Tina Rataj",
+  "source": "https://unsplash.com/photos/pwaaqfoMibI",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-13T00:00:00.000Z",
+  "owned": false
+}
