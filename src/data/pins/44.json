@@ -1,0 +1,15 @@
+{
+  "id": "pin-44",
+  "title": "파란 하늘과 붉은 꽃",
+  "description": "파란 하늘과 붉은 꽃. Arvee Marie의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["꽃", "파랑", "빨강"],
+  "category": "자연",
+  "image": "/images/44.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Arvee Marie",
+  "source": "https://unsplash.com/photos/YnfGtpt2gf4",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-18T00:00:00.000Z",
+  "owned": false
+}
