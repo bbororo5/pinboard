@@ -1,0 +1,15 @@
+{
+  "id": "pin-52",
+  "title": "하늘이 그린 수채화",
+  "description": "하늘이 그린 수채화. Brian Gonzalez의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["하늘", "구름", "색감"],
+  "category": "사진",
+  "image": "/images/52.jpg",
+  "width": 640,
+  "height": 880,
+  "author": "Brian Gonzalez",
+  "source": "https://unsplash.com/photos/llYg8Ni43fc",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-10T00:00:00.000Z",
+  "owned": false
+}
