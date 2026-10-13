@@ -1,0 +1,15 @@
+{
+  "id": "pin-31",
+  "title": "사진가의 손에 담긴 순간",
+  "description": "사진가의 손에 담긴 순간. Jennifer Trovato의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["카메라", "흑백", "시선"],
+  "category": "사진",
+  "image": "/images/31.jpg",
+  "width": 640,
+  "height": 800,
+  "author": "Jennifer Trovato",
+  "source": "https://unsplash.com/photos/baRYCsjO6z4",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-21T00:00:00.000Z",
+  "owned": false
+}
