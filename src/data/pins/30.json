@@ -1,0 +1,15 @@
+{
+  "id": "pin-30",
+  "title": "오래된 의자의 따뜻한 결",
+  "description": "오래된 의자의 따뜻한 결. Rula Sibai의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["의자", "빈티지", "질감"],
+  "category": "일상",
+  "image": "/images/30.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Rula Sibai",
+  "source": "https://unsplash.com/photos/qVj3KuEikvg",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-20T00:00:00.000Z",
+  "owned": false
+}
