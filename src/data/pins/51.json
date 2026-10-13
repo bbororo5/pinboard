@@ -1,0 +1,15 @@
+{
+  "id": "pin-51",
+  "title": "따뜻한 한 잔의 여백",
+  "description": "따뜻한 한 잔의 여백. Zugr의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["커피", "여백", "휴식"],
+  "category": "일상",
+  "image": "/images/51.jpg",
+  "width": 640,
+  "height": 720,
+  "author": "Zugr",
+  "source": "https://unsplash.com/photos/yZf1quatKCA",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-09T00:00:00.000Z",
+  "owned": false
+}
