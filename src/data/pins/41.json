@@ -1,0 +1,15 @@
+{
+  "id": "pin-41",
+  "title": "달콤한 오후를 위한 조각",
+  "description": "달콤한 오후를 위한 조각. Ben Moore의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["디저트", "케이크", "휴식"],
+  "category": "일상",
+  "image": "/images/41.jpg",
+  "width": 640,
+  "height": 640,
+  "author": "Ben Moore",
+  "source": "https://unsplash.com/photos/pJILiyPdrXI",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-15T00:00:00.000Z",
+  "owned": false
+}
