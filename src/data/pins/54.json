@@ -1,0 +1,15 @@
+{
+  "id": "pin-54",
+  "title": "언덕 위로 이어지는 산책",
+  "description": "언덕 위로 이어지는 산책. Anton Sulsky의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["언덕", "길", "산책"],
+  "category": "여행",
+  "image": "/images/54.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Anton Sulsky",
+  "source": "https://unsplash.com/photos/YcfCXxo7rpc",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-12T00:00:00.000Z",
+  "owned": false
+}
