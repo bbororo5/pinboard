@@ -1,0 +1,15 @@
+{
+  "id": "pin-38",
+  "title": "나무 바퀴에 남은 시간",
+  "description": "나무 바퀴에 남은 시간. Jon Toney의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["바퀴", "흑백", "빈티지"],
+  "category": "사진",
+  "image": "/images/38.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Jon Toney",
+  "source": "https://unsplash.com/photos/xyDQNmT6vSs",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-12T00:00:00.000Z",
+  "owned": false
+}
