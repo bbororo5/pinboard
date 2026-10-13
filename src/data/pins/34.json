@@ -1,0 +1,15 @@
+{
+  "id": "pin-34",
+  "title": "나무 그늘 아래 한낮",
+  "description": "나무 그늘 아래 한낮. Jean Kleisz의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["나무", "그늘", "초록"],
+  "category": "자연",
+  "image": "/images/34.jpg",
+  "width": 640,
+  "height": 880,
+  "author": "Jean Kleisz",
+  "source": "https://unsplash.com/photos/4yzPVohNuVI",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-08T00:00:00.000Z",
+  "owned": false
+}
