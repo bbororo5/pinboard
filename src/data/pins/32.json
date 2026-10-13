@@ -1,0 +1,15 @@
+{
+  "id": "pin-32",
+  "title": "파도 곁의 작은 조약돌",
+  "description": "파도 곁의 작은 조약돌. Rafael Souza의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["조약돌", "바다", "해변"],
+  "category": "자연",
+  "image": "/images/32.jpg",
+  "width": 640,
+  "height": 960,
+  "author": "Rafael Souza",
+  "source": "https://unsplash.com/photos/QxkBP3A9XmU",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-22T00:00:00.000Z",
+  "owned": false
+}
