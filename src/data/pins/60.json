@@ -1,0 +1,15 @@
+{
+  "id": "pin-60",
+  "title": "강물 위에 떠 있는 도시",
+  "description": "강물 위에 떠 있는 도시. Vadim Sherbakov의 사진에서 발견한 작은 영감을 나만의 보드에 모아 보세요.",
+  "tags": ["도시", "강", "야경"],
+  "category": "여행",
+  "image": "/images/60.jpg",
+  "width": 640,
+  "height": 1000,
+  "author": "Vadim Sherbakov",
+  "source": "https://unsplash.com/photos/xS_RzdD5CFE",
+  "license": "https://unsplash.com/license",
+  "createdAt": "2026-10-18T00:00:00.000Z",
+  "owned": false
+}
