@@ -1,0 +1,36 @@
+/* 01: Application frame */
+.app {
+  min-height: 100vh;
+}
+.workspace {
+  margin-left: 84px;
+}
+.main {
+  max-width: 1650px;
+  margin: 0 auto;
+  padding: 30px 40px 70px;
+  min-height: 75vh;
+}
+.main:focus {
+  outline: none;
+}
+.muted {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 2.4px;
+  color: #8b8071;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.eyebrow > span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--red);
+}
