@@ -436,3 +436,34 @@
   display: grid;
   place-items: center;
 }
+/* 11: Card metadata */
+.cardInfo {
+  padding: 10px 3px 0;
+}
+.cardInfo > a {
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.7;
+}
+.cardInfo p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #837b71;
+  margin-top: 6px;
+}
+.miniAvatar {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  background: #ece9e2;
+  border-radius: 50%;
+  font-size: 9px;
+  color: #867b6c;
+}
