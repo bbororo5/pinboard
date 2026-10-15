@@ -646,3 +646,66 @@
   font-size: 12px;
   line-height: 1.8;
 }
+/* 16: Save dialog board list */
+.boardList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 20px 0;
+  max-height: 35vh;
+  overflow: auto;
+}
+.boardRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 13px;
+  background: white;
+  text-align: left;
+  font-size: 13px;
+}
+.boardRow:hover {
+  background: #f7f5f1;
+}
+.boardRow > span:nth-child(2) {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.boardIcon {
+  width: 43px;
+  height: 43px;
+  background: #eee9e0;
+  color: #a18e79;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.savedMark {
+  color: var(--red);
+}
+.saveMark {
+  font-size: 10px;
+  padding: 8px 13px;
+  background: var(--cream);
+  border-radius: 20px;
+}
+.createBoard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--cream);
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.inlineForm {
+  display: flex;
+  gap: 8px;
+}
+.inlineForm .primary {
+  flex-shrink: 0;
+  padding: 10px 15px;
+}
