@@ -34,3 +34,70 @@
   border-radius: 50%;
   background: var(--red);
 }
+/* 02: Sidebar navigation */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 84px;
+  border-right: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  z-index: 30;
+  padding: 24px 0;
+}
+.monogram {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--red);
+  letter-spacing: -5px;
+  padding-right: 5px;
+}
+.monogram > span {
+  color: var(--ink);
+  font-size: 30px;
+}
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 49px;
+}
+.navItem,
+.navActive {
+  height: 46px;
+  width: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  color: #86827d;
+}
+.navItem svg,
+.navActive svg {
+  width: 22px;
+  stroke-width: 1.7;
+}
+.navItem:hover {
+  background: var(--cream);
+  color: var(--ink);
+}
+.navActive {
+  background: #f9eae7;
+  color: var(--red);
+}
+.sidebarAvatar {
+  margin-top: auto;
+  border: 1px solid #e8e1d7;
+  background: #e8dfcf;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 600;
+}
