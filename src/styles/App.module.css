@@ -523,3 +523,33 @@
   justify-content: flex-end;
   margin-top: 22px;
 }
+/* 13: Feed pagination */
+.loadMore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 32px 0;
+}
+.loadMore > span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.endnote {
+  text-align: center;
+  color: #aaa297;
+  font-size: 11px;
+  padding: 40px 10px;
+}
+.sectionTitle {
+  text-align: center;
+  padding: 40px 0 30px;
+}
+.sectionTitle .eyebrow {
+  justify-content: center;
+}
+.sectionTitle h2 {
+  font-size: 22px;
+  margin-top: 12px;
+  letter-spacing: -0.6px;
+}
