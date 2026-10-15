@@ -352,3 +352,34 @@
 .category:hover {
   background: var(--cream);
 }
+/* 09: Masonry layout */
+.masonry {
+  columns: 5;
+  column-gap: 19px;
+}
+.card {
+  break-inside: avoid;
+  margin-bottom: 25px;
+  min-width: 0;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.cardPhoto {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background: var(--cream);
+  isolation: isolate;
+}
+.cardPhoto > a {
+  display: block;
+}
+.cardPhoto img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.35s;
+}
+.cardPhoto:hover img {
+  transform: scale(1.035);
+}
