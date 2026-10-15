@@ -592,3 +592,57 @@
   border-radius: 10px;
   margin-top: 16px;
 }
+/* 15: Form controls */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.form label {
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form label > span {
+  color: var(--red);
+}
+.form label small {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 400;
+}
+.form input,
+.form textarea,
+.form select,
+.inlineForm input {
+  border: 1px solid #ded8cf;
+  border-radius: 12px;
+  padding: 14px;
+  background: #fff;
+  color: var(--ink);
+  width: 100%;
+  font-size: 13px;
+}
+.form input::placeholder,
+.form textarea::placeholder,
+.inlineForm input::placeholder {
+  color: #b2aba0;
+}
+.form textarea {
+  resize: vertical;
+  line-height: 1.8;
+}
+.form > .primary {
+  align-self: flex-end;
+  min-width: 130px;
+}
+.error {
+  background: #fcece8;
+  color: #a52e31;
+  padding: 13px;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.8;
+}
