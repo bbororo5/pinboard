@@ -318,3 +318,37 @@
   margin: 15px 0;
   letter-spacing: -1px;
 }
+/* 08: Category filters */
+.categories {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 27px;
+  overflow: auto;
+  padding: 3px 3px 7px;
+  scrollbar-width: none;
+}
+.category,
+.categoryActive {
+  border: 1px solid #eae6df;
+  border-radius: 30px;
+  padding: 10px 19px;
+  background: white;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: #81776c;
+}
+.category span,
+.categoryActive span {
+  font-size: 11px;
+}
+.categoryActive {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.category:hover {
+  background: var(--cream);
+}
