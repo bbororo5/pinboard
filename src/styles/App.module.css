@@ -467,3 +467,59 @@
   font-size: 9px;
   color: #867b6c;
 }
+/* 12: Buttons */
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 26px;
+  padding: 13px 22px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  min-height: 43px;
+  line-height: 1.4;
+}
+.primary {
+  background: var(--red);
+  color: #fff;
+}
+.primary:hover {
+  background: #b92f32;
+}
+.secondary {
+  background: var(--cream);
+  color: var(--ink);
+}
+.secondary:hover {
+  background: #eae5de;
+}
+.iconButton {
+  padding: 9px;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.iconButton:hover {
+  background: var(--cream);
+}
+.textButton {
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  padding: 12px;
+  color: #8a766c;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 22px;
+}
