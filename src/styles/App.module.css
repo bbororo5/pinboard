@@ -383,3 +383,56 @@
 .cardPhoto:hover img {
   transform: scale(1.035);
 }
+/* 10: Card overlays */
+.cardOverlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background: linear-gradient(180deg, #0004, transparent 45%, #0003);
+}
+.cardPhoto:hover .cardOverlay,
+.cardPhoto:focus-within .cardOverlay {
+  opacity: 1;
+}
+.cardOverlay button,
+.cardOverlay a {
+  pointer-events: auto;
+}
+.cardCategory {
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  color: white;
+  font-size: 11px;
+}
+.saveButton,
+.savedButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--red);
+  color: white;
+  border-radius: 25px;
+  padding: 11px 16px;
+  font-size: 11px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.savedButton {
+  background: white;
+  color: var(--ink);
+}
+.cardSource {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: #ffffffeb;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+}
