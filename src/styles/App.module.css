@@ -281,3 +281,40 @@
   letter-spacing: -1px;
   color: #9a4c3a;
 }
+/* 07: Feed section headings */
+.feedHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 21px;
+}
+.feedHeading > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.feedHeading h2 {
+  font-size: 19px;
+  letter-spacing: -0.6px;
+  font-weight: 600;
+}
+.feedHeading > div > span {
+  font-size: 10px;
+  color: #a09990;
+}
+.feedLabel {
+  font-size: 10px;
+  color: #999085;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.searchTitle {
+  padding: 35px 0 45px;
+}
+.searchTitle h1 {
+  font-size: 32px;
+  margin: 15px 0;
+  letter-spacing: -1px;
+}
