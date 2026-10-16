@@ -1149,3 +1149,41 @@
     background-position: -200% 0;
   }
 }
+/* 28: Attribution content */
+.about {
+  max-width: 900px;
+  margin: 30px auto;
+  line-height: 2;
+}
+.about h1 {
+  font-size: 32px;
+  margin: 15px 0 35px;
+}
+.about h2 {
+  font-size: 20px;
+  margin: 25px 0 12px;
+}
+.about p {
+  font-size: 14px;
+  color: #8b8176;
+}
+.about p a {
+  text-decoration: underline;
+}
+.creditGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 25px;
+}
+.creditGrid > a {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 11px;
+}
+.creditGrid small {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+}
