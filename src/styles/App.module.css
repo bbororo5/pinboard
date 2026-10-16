@@ -709,3 +709,64 @@
   flex-shrink: 0;
   padding: 10px 15px;
 }
+/* 17: Detail layout */
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: #82796e;
+  margin: 6px 0 26px;
+}
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1040px;
+  margin: 0 auto 20px;
+  border: 1px solid #eee9e2;
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px #3f311008;
+}
+.detailPhoto,
+.zoomPhoto {
+  padding: 0;
+  background: #f1eee8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-in;
+  min-height: 480px;
+}
+.detailPhoto img {
+  width: 100%;
+  max-height: 680px;
+  object-fit: contain;
+}
+.zoomPhoto {
+  cursor: zoom-out;
+  overflow: auto;
+  align-items: flex-start;
+}
+.zoomPhoto img {
+  max-width: none;
+  width: 100%;
+  max-height: none;
+}
+.detailInfo {
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+.detailInfo h1 {
+  font-size: 32px;
+  letter-spacing: -1.2px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.detailInfo > .actions {
+  margin-top: auto;
+  align-self: flex-end;
+}
