@@ -1210,3 +1210,26 @@
 .footer a:hover {
   color: var(--red);
 }
+/* 30: Wide screens */
+@media (min-width: 1700px) {
+  .masonry,
+  .skeletonGrid {
+    columns: 6;
+  }
+  .heroArt {
+    right: 100px;
+    width: 520px;
+  }
+  .heroPhoto {
+    width: 180px;
+  }
+  .heroPhoto img {
+    height: 200px;
+  }
+  .heroPhoto:nth-child(2) {
+    left: 145px;
+  }
+  .heroPhoto:nth-child(3) {
+    left: 285px;
+  }
+}
