@@ -1045,3 +1045,50 @@
 .editor > .form {
   gap: 22px;
 }
+/* 25: Image uploader */
+.uploadZone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #f4f1eb;
+  border: 1px dashed #d5cbbd;
+  border-radius: 16px;
+  min-height: 450px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+.uploadZone > img {
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: 9px;
+}
+.uploadZone strong {
+  font-size: 14px;
+  line-height: 1.9;
+  font-weight: 500;
+  color: #817260;
+}
+.uploadZone small {
+  font-size: 10px;
+  color: #b0a18e;
+}
+.uploadIcon {
+  display: grid;
+  place-items: center;
+  background: #eae4d9;
+  color: #ac977c;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+.uploadNote {
+  font-size: 10px;
+  line-height: 1.9;
+  color: #a09587;
+  text-align: center;
+  margin-top: 20px;
+}
