@@ -1092,3 +1092,42 @@
   text-align: center;
   margin-top: 20px;
 }
+/* 26: Empty states */
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 80px 24px;
+  text-align: center;
+  min-height: 350px;
+  color: #a48b71;
+}
+.empty h2 {
+  font-size: 22px;
+  color: var(--ink);
+  letter-spacing: -0.8px;
+}
+.empty p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.9;
+  max-width: 400px;
+}
+.imageError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #efeae2;
+  color: #a59179;
+  width: 100%;
+  min-height: 100px;
+  padding: 15px;
+}
+.imageError span {
+  font-size: 10px;
+  text-align: center;
+}
