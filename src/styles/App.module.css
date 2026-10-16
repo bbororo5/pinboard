@@ -1015,3 +1015,33 @@
   right: 0;
   border-radius: 2px;
 }
+/* 24: Editor structure */
+.editorHeading {
+  max-width: 920px;
+  margin: 15px auto 35px;
+}
+.editorHeading h1 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin: 14px 0;
+}
+.editorHeading h1 span {
+  color: var(--red);
+}
+.editorHeading p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.editor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 920px;
+  margin: auto;
+  padding: 32px;
+  border: 1px solid var(--line);
+  border-radius: 23px;
+}
+.editor > .form {
+  gap: 22px;
+}
