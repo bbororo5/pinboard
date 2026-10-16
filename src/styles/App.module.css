@@ -1131,3 +1131,21 @@
   font-size: 10px;
   text-align: center;
 }
+/* 27: Loading placeholders */
+.skeletonGrid {
+  columns: 5;
+  column-gap: 19px;
+}
+.skeleton {
+  break-inside: avoid;
+  background: linear-gradient(100deg, #f5f2ed 20%, #faf9f7 50%, #f5f2ed 80%);
+  background-size: 200% 100%;
+  border-radius: 16px;
+  margin-bottom: 23px;
+  animation: shimmer 1.8s infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
