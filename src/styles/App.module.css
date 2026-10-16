@@ -851,3 +851,27 @@
   padding: 7px 11px;
   border-radius: 9px;
 }
+/* 19: Page heading */
+.pageHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 0 42px;
+}
+.pageHeading h1 {
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 15px 0 10px;
+  overflow-wrap: anywhere;
+}
+.pageHeading h1 > span {
+  color: var(--red);
+}
+.pageHeading p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.pageHeading .actions {
+  margin: 0;
+}
