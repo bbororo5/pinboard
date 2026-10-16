@@ -875,3 +875,54 @@
 .pageHeading .actions {
   margin: 0;
 }
+/* 20: Board collection cards */
+.boardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+.boardCard {
+  display: block;
+}
+.boardCover {
+  height: 220px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #f3f0eb;
+  display: flex;
+  gap: 3px;
+}
+.boardCover > img {
+  object-fit: cover;
+  width: 25%;
+  height: 100%;
+}
+.boardCover > img:first-child {
+  flex: 1;
+  min-width: 0;
+}
+.boardCover > span {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #b3a593;
+  gap: 18px;
+}
+.boardCover small {
+  font-size: 11px;
+}
+.boardCard h3 {
+  font-size: 16px;
+  margin: 15px 5px 7px;
+  overflow-wrap: anywhere;
+}
+.boardCard p {
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: 5px;
+}
+.boardCard:hover h3 {
+  color: var(--red);
+}
