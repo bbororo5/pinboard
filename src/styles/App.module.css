@@ -986,3 +986,32 @@
   color: #8f8274;
   margin-bottom: 7px;
 }
+/* 23: Profile tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 35px;
+}
+.tabs button {
+  background: white;
+  padding: 17px 3px;
+  font-size: 13px;
+  color: #a3998c;
+  position: relative;
+}
+.tabs .tabActive {
+  color: var(--ink);
+  font-weight: 600;
+}
+.tabActive::after {
+  content: "";
+  height: 3px;
+  background: var(--ink);
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  border-radius: 2px;
+}
