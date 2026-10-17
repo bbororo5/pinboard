@@ -1644,3 +1644,88 @@
     padding: 30px 0 25px;
   }
 }
+/* 36: Touch interaction and compact collections */
+@media (hover: none) {
+  .cardOverlay {
+    opacity: 1;
+    background: none;
+  }
+  .cardCategory,
+  .cardSource {
+    display: none;
+  }
+  .cardPhoto:hover img {
+    transform: none;
+  }
+}
+@media (max-width: 640px) {
+  .boardGrid {
+    gap: 19px 12px;
+  }
+  .boardCover {
+    height: 145px;
+    border-radius: 15px;
+  }
+  .boardCard h3 {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .boardCard p {
+    font-size: 10px;
+  }
+  .boardCover small {
+    font-size: 8px;
+  }
+  .boardCover > span {
+    gap: 12px;
+    padding: 12px;
+    text-align: center;
+  }
+  .profile {
+    padding: 20px 0 28px;
+  }
+  .profile h1 {
+    font-size: 24px;
+  }
+  .profile p {
+    font-size: 12px;
+  }
+  .profileAvatar {
+    width: 82px;
+    height: 82px;
+  }
+  .profile .eyebrow {
+    font-size: 8px;
+  }
+  .tabs {
+    margin-bottom: 25px;
+  }
+  .empty {
+    padding: 55px 15px;
+  }
+  .empty h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .heroArt {
+    display: none;
+  }
+  .heroCopy {
+    width: 100%;
+  }
+  .hero {
+    min-height: 285px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .header {
+    gap: 8px;
+    padding: 0 14px;
+  }
+  .wordmark {
+    font-size: 19px;
+  }
+}
