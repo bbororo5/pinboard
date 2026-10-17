@@ -1438,3 +1438,121 @@
     display: none;
   }
 }
+/* 34: Mobile feed */
+@media (max-width: 640px) {
+  .hero {
+    padding: 25px 23px;
+    min-height: 305px;
+    border-radius: 17px;
+    margin-bottom: 30px;
+  }
+  .heroCopy {
+    width: 70%;
+  }
+  .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+  .hero h1 {
+    font-size: 29px;
+    letter-spacing: -1.5px;
+    margin-top: 17px;
+  }
+  .hero p {
+    font-size: 12px;
+  }
+  .heroLink {
+    font-size: 10px;
+    margin-top: 17px;
+  }
+  .heroArt {
+    width: 35%;
+    right: -27px;
+  }
+  .heroPhoto {
+    width: 112px;
+    top: 90px;
+    left: 0;
+    padding: 5px 5px 14px;
+  }
+  .heroPhoto img {
+    height: 160px;
+  }
+  .heroPhoto:nth-child(2) {
+    left: 65px;
+    top: 132px;
+  }
+  .heroPhoto span {
+    font-size: 9px;
+  }
+  .feedHeading h2 {
+    font-size: 16px;
+  }
+  .feedHeading > div {
+    gap: 8px;
+  }
+  .feedHeading > div > span {
+    font-size: 9px;
+  }
+  .feedLabel {
+    display: none;
+  }
+  .feedHeading {
+    margin-bottom: 15px;
+  }
+  .categories {
+    gap: 7px;
+    margin-bottom: 17px;
+  }
+  .category,
+  .categoryActive {
+    padding: 9px 14px;
+    font-size: 11px;
+  }
+  .category span,
+  .categoryActive span {
+    font-size: 10px;
+  }
+  .masonry,
+  .skeletonGrid {
+    columns: 2;
+    column-gap: 12px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .cardPhoto {
+    border-radius: 12px;
+  }
+  .cardInfo > a {
+    font-size: 12px;
+  }
+  .cardInfo p {
+    font-size: 10px;
+  }
+  .cardOverlay {
+    opacity: 1;
+    background: none;
+  }
+  .cardCategory,
+  .cardSource {
+    display: none;
+  }
+  .saveButton,
+  .savedButton {
+    top: 8px;
+    right: 7px;
+    padding: 8px 10px;
+    font-size: 9px;
+  }
+  .searchTitle {
+    padding: 20px 0 30px;
+  }
+  .searchTitle h1 {
+    font-size: 25px;
+  }
+  .endnote {
+    font-size: 10px;
+    padding: 28px 8px;
+  }
+}
