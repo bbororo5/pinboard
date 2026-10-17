@@ -1556,3 +1556,91 @@
     padding: 28px 8px;
   }
 }
+/* 35: Mobile detail and forms */
+@media (max-width: 640px) {
+  .detail {
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+  }
+  .detailPhoto {
+    min-height: 0;
+  }
+  .detailPhoto img {
+    max-height: 520px;
+    width: 100%;
+  }
+  .detailInfo {
+    padding: 24px;
+    gap: 19px;
+  }
+  .detailInfo h1 {
+    font-size: 27px;
+  }
+  .detailTop .primary {
+    padding: 12px 19px;
+  }
+  .detailInfo .actions {
+    margin-top: 10px;
+  }
+  .back {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+  .editor {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 30px;
+  }
+  .editorHeading {
+    margin: 10px 0 25px;
+  }
+  .editorHeading h1 {
+    font-size: 25px;
+  }
+  .uploadZone {
+    min-height: 300px;
+  }
+  .uploadZone > img {
+    max-height: 380px;
+  }
+  .form {
+    gap: 20px;
+  }
+  .primary,
+  .secondary {
+    font-size: 11px;
+    padding: 12px 18px;
+  }
+  .pageHeading {
+    padding: 15px 0 28px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .pageHeading h1 {
+    font-size: 29px;
+  }
+  .pageHeading p {
+    font-size: 11px;
+  }
+  .pageHeading > .primary {
+    margin-top: 10px;
+  }
+  .pageHeading .actions {
+    gap: 5px;
+  }
+  .dialog {
+    padding: 23px;
+  }
+  .dialogHeader h2 {
+    font-size: 20px;
+  }
+  .about {
+    margin: 15px 0;
+  }
+  .creditGrid {
+    grid-template-columns: 1fr;
+  }
+  .sectionTitle {
+    padding: 30px 0 25px;
+  }
+}
