@@ -1233,3 +1233,50 @@
     left: 285px;
   }
 }
+/* 31: Laptop layout */
+@media (max-width: 1200px) {
+  .main {
+    padding: 25px 28px 50px;
+  }
+  .header {
+    padding: 0 28px;
+    gap: 20px;
+  }
+  .masonry,
+  .skeletonGrid {
+    columns: 4;
+    column-gap: 16px;
+  }
+  .hero {
+    padding: 35px;
+    min-height: 305px;
+  }
+  .heroArt {
+    right: -30px;
+  }
+  .heroPhoto {
+    width: 140px;
+  }
+  .heroPhoto img {
+    height: 168px;
+  }
+  .heroPhoto:nth-child(2) {
+    left: 95px;
+  }
+  .heroPhoto:nth-child(3) {
+    left: 200px;
+  }
+  .heroStamp {
+    display: none;
+  }
+  .boardCover {
+    height: 185px;
+  }
+  .editor {
+    gap: 30px;
+    padding: 25px;
+  }
+  .footer {
+    margin: 0 28px;
+  }
+}
