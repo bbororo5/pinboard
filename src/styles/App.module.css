@@ -1280,3 +1280,79 @@
     margin: 0 28px;
   }
 }
+/* 32: Tablet layout */
+@media (max-width: 960px) {
+  .sidebar {
+    width: 68px;
+  }
+  .workspace {
+    margin-left: 68px;
+  }
+  .main {
+    padding: 25px 24px 45px;
+  }
+  .header {
+    height: 80px;
+    padding: 0 24px;
+    gap: 17px;
+  }
+  .wordmark {
+    font-size: 22px;
+  }
+  .search {
+    margin-left: 0;
+  }
+  .masonry,
+  .skeletonGrid {
+    columns: 3;
+  }
+  .hero {
+    min-height: 310px;
+    padding: 30px;
+  }
+  .heroCopy {
+    width: 60%;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .heroArt {
+    right: -75px;
+    width: 45%;
+  }
+  .heroPhoto {
+    width: 130px;
+    top: 55px;
+  }
+  .heroPhoto:nth-child(2) {
+    left: 95px;
+    top: 100px;
+  }
+  .heroPhoto:nth-child(3) {
+    display: none;
+  }
+  .heroPhoto img {
+    height: 175px;
+  }
+  .boardGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .detailInfo {
+    padding: 25px;
+  }
+  .detailInfo h1 {
+    font-size: 26px;
+  }
+  .detailPhoto {
+    min-height: 400px;
+  }
+  .editor {
+    gap: 25px;
+  }
+  .uploadZone {
+    min-height: 370px;
+  }
+  .creditGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
