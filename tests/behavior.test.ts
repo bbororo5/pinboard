@@ -56,3 +56,8 @@ it("search matches descriptions", async () => {
   expect(searchPins([pin, other], "아침")).toHaveLength(2);
 });
 
+// case: search matches tags
+it("search matches tags", async () => {
+  expect(searchPins([pin, other], "자연")).toEqual([pin]);
+});
+
