@@ -46,3 +46,8 @@ beforeEach(async () => {
   await tx.done;
   await repo.initialize([pin, other]);
 });
+// case: search matches Korean titles
+it("search matches Korean titles", async () => {
+  expect(searchPins([pin, other], "초록")).toEqual([pin]);
+});
+
