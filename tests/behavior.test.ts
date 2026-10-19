@@ -51,3 +51,8 @@ it("search matches Korean titles", async () => {
   expect(searchPins([pin, other], "초록")).toEqual([pin]);
 });
 
+// case: search matches descriptions
+it("search matches descriptions", async () => {
+  expect(searchPins([pin, other], "아침")).toHaveLength(2);
+});
+
