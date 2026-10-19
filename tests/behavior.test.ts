@@ -66,3 +66,9 @@ it("search ignores case and surrounding spaces", async () => {
   expect(searchPins([pin], "  COFFEE  ")).toEqual([pin]);
 });
 
+// case: search requires every word
+it("search requires every word", async () => {
+  expect(searchPins([pin], "초록 아침")).toHaveLength(1);
+  expect(searchPins([pin], "초록 바다")).toHaveLength(0);
+});
+
