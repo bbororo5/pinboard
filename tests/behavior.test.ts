@@ -61,3 +61,8 @@ it("search matches tags", async () => {
   expect(searchPins([pin, other], "자연")).toEqual([pin]);
 });
 
+// case: search ignores case and surrounding spaces
+it("search ignores case and surrounding spaces", async () => {
+  expect(searchPins([pin], "  COFFEE  ")).toEqual([pin]);
+});
+
