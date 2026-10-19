@@ -72,3 +72,8 @@ it("search requires every word", async () => {
   expect(searchPins([pin], "초록 바다")).toHaveLength(0);
 });
 
+// case: search combines text and category
+it("search combines text and category", async () => {
+  expect(searchPins([pin, other], "빛", "여행")).toEqual([other]);
+});
+
