@@ -121,3 +121,17 @@ it("pin text limits and required title are enforced", async () => {
   expect(validatePin(input)).toBeNull();
 });
 
+// case: source URLs reject executable and invalid schemes
+it("source URLs reject executable and invalid schemes", async () => {
+  for (const source of [
+    "javascript:alert(1)",
+    "data:text/html,test",
+    "ftp://example.com",
+    "broken",
+  ]) {
+    expect(safeSource(source)).toBeNull();
+    expect(validatePin({ ...input, source })).toBeTruthy();
+  }
+  expect(safeSource("https://example.com")).toBe("https://example.com/");
+});
+
