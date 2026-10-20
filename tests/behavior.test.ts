@@ -102,3 +102,12 @@ it("accepted image formats remain valid at size limit", async () => {
     expect(validateImage({ type, size: 10 * 1024 * 1024 })).toBeNull();
 });
 
+// case: unsupported empty and oversized images are rejected
+it("unsupported empty and oversized images are rejected", async () => {
+  expect(validateImage({ type: "image/svg+xml", size: 12 })).toBeTruthy();
+  expect(validateImage({ type: "image/png", size: 0 })).toBeTruthy();
+  expect(
+    validateImage({ type: "image/png", size: 10 * 1024 * 1024 + 1 }),
+  ).toBeTruthy();
+});
+
