@@ -82,3 +82,12 @@ it("empty query returns all pins", async () => {
   expect(searchPins([pin, other], "  ")).toHaveLength(2);
 });
 
+// case: related pins exclude current and rank overlap
+it("related pins exclude current and rank overlap", async () => {
+  const both = { ...other, id: "both", tags: ["자연", "빛"] };
+  expect(relatedPins([pin, other, both], pin).map((p) => p.id)).toEqual([
+    "both",
+    "other",
+  ]);
+});
+
