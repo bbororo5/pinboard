@@ -111,3 +111,13 @@ it("unsupported empty and oversized images are rejected", async () => {
   ).toBeTruthy();
 });
 
+// case: pin text limits and required title are enforced
+it("pin text limits and required title are enforced", async () => {
+  expect(validatePin({ ...input, title: "  " })).toBeTruthy();
+  expect(validatePin({ ...input, title: "가".repeat(101) })).toBeTruthy();
+  expect(
+    validatePin({ ...input, description: "가".repeat(1001) }),
+  ).toBeTruthy();
+  expect(validatePin(input)).toBeNull();
+});
+
