@@ -91,3 +91,8 @@ it("related pins exclude current and rank overlap", async () => {
   ]);
 });
 
+// case: unrelated pins are excluded
+it("unrelated pins are excluded", async () => {
+  expect(relatedPins([pin, { ...other, tags: ["음악"] }], pin)).toEqual([]);
+});
+
