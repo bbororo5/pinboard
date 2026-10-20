@@ -77,3 +77,8 @@ it("search combines text and category", async () => {
   expect(searchPins([pin, other], "빛", "여행")).toEqual([other]);
 });
 
+// case: empty query returns all pins
+it("empty query returns all pins", async () => {
+  expect(searchPins([pin, other], "  ")).toHaveLength(2);
+});
+
