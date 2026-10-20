@@ -96,3 +96,9 @@ it("unrelated pins are excluded", async () => {
   expect(relatedPins([pin, { ...other, tags: ["음악"] }], pin)).toEqual([]);
 });
 
+// case: accepted image formats remain valid at size limit
+it("accepted image formats remain valid at size limit", async () => {
+  for (const type of ["image/jpeg", "image/png", "image/webp"])
+    expect(validateImage({ type, size: 10 * 1024 * 1024 })).toBeNull();
+});
+
