@@ -135,3 +135,11 @@ it("source URLs reject executable and invalid schemes", async () => {
   expect(safeSource("https://example.com")).toBe("https://example.com/");
 });
 
+// case: tags trim deduplicate and cap at ten
+it("tags trim deduplicate and cap at ten", async () => {
+  expect(parseTags(" #자연, 빛, 자연,,")).toEqual(["자연", "빛"]);
+  expect(
+    parseTags(Array.from({ length: 12 }, (_, i) => String(i)).join(",")),
+  ).toHaveLength(10);
+});
+
