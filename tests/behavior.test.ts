@@ -205,3 +205,14 @@ it("save rejects nonexistent pin or board", async () => {
   expect((await repo.getSnapshot()).saved).toHaveLength(0);
 });
 
+// case: unsaving keeps pin and other board relationships
+it("unsaving keeps pin and other board relationships", async () => {
+  const b = await repo.createBoard("둘째");
+  await repo.savePin("board-inspiration", "seed");
+  await repo.savePin(b.id, "seed");
+  await repo.unsavePin(b.id, "seed");
+  const state = await repo.getSnapshot();
+  expect(state.saved).toHaveLength(1);
+  expect(state.pins).toHaveLength(2);
+});
+
