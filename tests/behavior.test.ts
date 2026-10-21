@@ -216,3 +216,13 @@ it("unsaving keeps pin and other board relationships", async () => {
   expect(state.pins).toHaveLength(2);
 });
 
+// case: board deletion preserves original pins
+it("board deletion preserves original pins", async () => {
+  await repo.savePin("board-inspiration", "seed");
+  await repo.deleteBoard("board-inspiration");
+  const state = await repo.getSnapshot();
+  expect(state.boards).toHaveLength(0);
+  expect(state.saved).toHaveLength(0);
+  expect(state.pins).toHaveLength(2);
+});
+
