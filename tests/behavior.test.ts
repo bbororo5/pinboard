@@ -183,3 +183,10 @@ it("rename rejects missing boards and invalid names", async () => {
   ).rejects.toThrow();
 });
 
+// case: duplicate save creates one relationship
+it("duplicate save creates one relationship", async () => {
+  await repo.savePin("board-inspiration", "seed");
+  await repo.savePin("board-inspiration", "seed");
+  expect((await repo.getSnapshot()).saved).toHaveLength(1);
+});
+
