@@ -174,3 +174,12 @@ it("renaming preserves board identity", async () => {
   ).toBe("이후");
 });
 
+// case: rename rejects missing boards and invalid names
+it("rename rejects missing boards and invalid names", async () => {
+  await expect(repo.renameBoard("missing", "이름")).rejects.toThrow();
+  await expect(repo.renameBoard("board-inspiration", " ")).rejects.toThrow();
+  await expect(
+    repo.renameBoard("board-inspiration", "가".repeat(61)),
+  ).rejects.toThrow();
+});
+
