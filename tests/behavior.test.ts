@@ -165,3 +165,12 @@ it("empty and oversized board names are rejected", async () => {
   await expect(repo.createBoard("가".repeat(61))).rejects.toThrow();
 });
 
+// case: renaming preserves board identity
+it("renaming preserves board identity", async () => {
+  const board = await repo.createBoard("이전");
+  await repo.renameBoard(board.id, "  이후  ");
+  expect(
+    (await repo.getSnapshot()).boards.find((b) => b.id === board.id)?.name,
+  ).toBe("이후");
+});
+
