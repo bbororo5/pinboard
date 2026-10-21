@@ -190,3 +190,11 @@ it("duplicate save creates one relationship", async () => {
   expect((await repo.getSnapshot()).saved).toHaveLength(1);
 });
 
+// case: pin can be saved independently to two boards
+it("pin can be saved independently to two boards", async () => {
+  const b = await repo.createBoard("둘째");
+  await repo.savePin("board-inspiration", "seed");
+  await repo.savePin(b.id, "seed");
+  expect((await repo.getSnapshot()).saved).toHaveLength(2);
+});
+
