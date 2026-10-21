@@ -152,3 +152,10 @@ it("initialization is idempotent and preserves custom boards", async () => {
   expect(state.boards).toHaveLength(2);
 });
 
+// case: new board names are trimmed
+it("new board names are trimmed", async () => {
+  const board = await repo.createBoard("  여행  ");
+  expect(board.name).toBe("여행");
+  expect((await repo.getSnapshot()).boards).toContainEqual(board);
+});
+
