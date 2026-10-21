@@ -198,3 +198,10 @@ it("pin can be saved independently to two boards", async () => {
   expect((await repo.getSnapshot()).saved).toHaveLength(2);
 });
 
+// case: save rejects nonexistent pin or board
+it("save rejects nonexistent pin or board", async () => {
+  await expect(repo.savePin("missing", "seed")).rejects.toThrow();
+  await expect(repo.savePin("board-inspiration", "missing")).rejects.toThrow();
+  expect((await repo.getSnapshot()).saved).toHaveLength(0);
+});
+
