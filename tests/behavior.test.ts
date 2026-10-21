@@ -159,3 +159,9 @@ it("new board names are trimmed", async () => {
   expect((await repo.getSnapshot()).boards).toContainEqual(board);
 });
 
+// case: empty and oversized board names are rejected
+it("empty and oversized board names are rejected", async () => {
+  await expect(repo.createBoard("  ")).rejects.toThrow();
+  await expect(repo.createBoard("가".repeat(61))).rejects.toThrow();
+});
+
