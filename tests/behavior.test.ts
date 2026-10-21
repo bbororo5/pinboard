@@ -226,3 +226,12 @@ it("board deletion preserves original pins", async () => {
   expect(state.pins).toHaveLength(2);
 });
 
+// case: board deletion preserves unrelated saves
+it("board deletion preserves unrelated saves", async () => {
+  const b = await repo.createBoard("둘째");
+  await repo.savePin("board-inspiration", "seed");
+  await repo.savePin(b.id, "seed");
+  await repo.deleteBoard("board-inspiration");
+  expect((await repo.getSnapshot()).saved[0].boardId).toBe(b.id);
+});
+
