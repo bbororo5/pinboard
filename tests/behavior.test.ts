@@ -244,3 +244,12 @@ it("created image blob survives reading from storage", async () => {
   expect(stored.blob!.type).toBe("image/png");
 });
 
+// case: updating a pin replaces data without duplication
+it("updating a pin replaces data without duplication", async () => {
+  await repo.putPin({ ...pin, id: "mine", owned: true });
+  await repo.putPin({ ...pin, id: "mine", owned: true, title: "수정" });
+  const state = await repo.getSnapshot();
+  expect(state.pins).toHaveLength(3);
+  expect(state.pins.find((p) => p.id === "mine")?.title).toBe("수정");
+});
+
