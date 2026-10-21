@@ -143,3 +143,12 @@ it("tags trim deduplicate and cap at ten", async () => {
   ).toHaveLength(10);
 });
 
+// case: initialization is idempotent and preserves custom boards
+it("initialization is idempotent and preserves custom boards", async () => {
+  await repo.createBoard("개인 보드");
+  await repo.initialize([pin, other]);
+  const state = await repo.getSnapshot();
+  expect(state.pins).toHaveLength(2);
+  expect(state.boards).toHaveLength(2);
+});
+
