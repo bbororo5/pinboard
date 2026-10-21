@@ -253,3 +253,17 @@ it("updating a pin replaces data without duplication", async () => {
   expect(state.pins.find((p) => p.id === "mine")?.title).toBe("수정");
 });
 
+// case: owned pin deletion removes its saves in every board
+it("owned pin deletion removes its saves in every board", async () => {
+  const b = await repo.createBoard("둘째");
+  await repo.putPin({ ...pin, id: "mine", owned: true });
+  await repo.savePin(b.id, "mine");
+  await repo.savePin("board-inspiration", "mine");
+  await repo.savePin(b.id, "seed");
+  await repo.deletePin("mine");
+  const state = await repo.getSnapshot();
+  expect(state.pins.find((p) => p.id === "mine")).toBeUndefined();
+  expect(state.saved).toHaveLength(1);
+  expect(state.saved[0].pinId).toBe("seed");
+});
+
