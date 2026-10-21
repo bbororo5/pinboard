@@ -235,3 +235,12 @@ it("board deletion preserves unrelated saves", async () => {
   expect((await repo.getSnapshot()).saved[0].boardId).toBe(b.id);
 });
 
+// case: created image blob survives reading from storage
+it("created image blob survives reading from storage", async () => {
+  const blob = new Blob(["picture"], { type: "image/png" });
+  await repo.putPin({ ...pin, id: "mine", owned: true, blob });
+  const stored = (await repo.getSnapshot()).pins.find((p) => p.id === "mine")!;
+  expect(await stored.blob!.text()).toBe("picture");
+  expect(stored.blob!.type).toBe("image/png");
+});
+
