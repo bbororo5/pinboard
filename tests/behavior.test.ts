@@ -267,3 +267,10 @@ it("owned pin deletion removes its saves in every board", async () => {
   expect(state.saved[0].pinId).toBe("seed");
 });
 
+// case: seed and missing pins cannot be deleted
+it("seed and missing pins cannot be deleted", async () => {
+  await expect(repo.deletePin("seed")).rejects.toThrow();
+  await expect(repo.deletePin("missing")).rejects.toThrow();
+  expect((await repo.getSnapshot()).pins).toHaveLength(2);
+});
+
