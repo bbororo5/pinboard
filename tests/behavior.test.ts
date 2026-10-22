@@ -274,3 +274,11 @@ it("seed and missing pins cannot be deleted", async () => {
   expect((await repo.getSnapshot()).pins).toHaveLength(2);
 });
 
+// case: quota errors explain recovery and retain other errors
+it("quota errors explain recovery and retain other errors", async () => {
+  expect(
+    errorMessage(new DOMException("full", "QuotaExceededError")),
+  ).toContain("저장 공간");
+  expect(errorMessage(new Error("읽기 실패"))).toBe("읽기 실패");
+  expect(errorMessage(null)).toContain("다시 시도");
+});
